@@ -1,8 +1,16 @@
 //JUST DON'T FUCKING USE DIGITAL PIN 12
 //JUST DON'T FUCKING DO IT.
 
-
-
+/*
+Analog pins can be used by using number 14 to 19
+doesn't work past 19
+Pin 14 = Analog in 0
+Pin 15 = Analog in 1
+Pin 16 = Analog in 2
+Pin 17 = Analog in 3
+Pin 18 = Analog in 4
+Pin 19 = Analog in 5
+*/
 
 #include <Servo.h>
 
@@ -66,8 +74,8 @@ void ServoSetup()
   s8.attach(9);
   s9.attach(10);
   s10.attach(11);
-  s11.attach(A7);
-  s12.attach(13);
+  s11.attach(18);
+  s12.attach(19);
 }
 
 void loop()

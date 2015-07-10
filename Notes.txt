@@ -1,0 +1,9 @@
+Use voltage regulator with 9v battery to power arduino & servo
+
+http://captain-slow.dk/2010/10/19/servo-with-external-power/
+
+connect + of battery to Vin and - to ground
+
+Separately. Use the regulator to drop it down to 5v before connecting to servos.
+
+I probably need to disconnect 5v from the circuit. I can keep the ground though.

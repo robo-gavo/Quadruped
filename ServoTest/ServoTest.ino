@@ -1,6 +1,6 @@
 #include <Servo.h>
 
-int servoPin = 11;
+int servoPin = 18;
 
 Servo testServo;
 
@@ -12,5 +12,5 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  testServo.write(0);
+  testServo.write(180);
 }
