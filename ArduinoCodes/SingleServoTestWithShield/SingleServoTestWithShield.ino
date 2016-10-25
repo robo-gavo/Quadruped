@@ -15,7 +15,7 @@
   Written by Limor Fried/Ladyada for Adafruit Industries.  
   BSD license, all text above must be included in any redistribution
  ****************************************************/
-
+ 
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
 
@@ -73,7 +73,7 @@ void setServoPulse(uint8_t n, double pulse) {
 
 //1 = static
 //2 = sweep
-int mode = 1;
+int mode = 2;
 
 void loop() {
 
